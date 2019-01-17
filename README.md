@@ -1,4 +1,2 @@
-FidusWriter plugin 
-This plugin provides Navigation bar with Typewiser Logo
+I am giving different UI to comments based on different date of modification
 
-![picture](display.png)
