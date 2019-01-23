@@ -11,8 +11,8 @@ export let simple_plugin = function(options){
 /*I cannot access the dom of comment within init 
    Which means that if I add a css class, only after one click, the new UI/css
    will be loaded*/
-          console.log(state);
-          console.log(config)
+       //   console.log(state);
+       //  console.log(config)
          /* let comment_dom = document.getElementsByClassName("margin-box comment")
           console.log("comm is :-")
           let com1 = document.querySelector("div#margin-box-1787445283")
@@ -24,14 +24,14 @@ export let simple_plugin = function(options){
         },
       apply(tr, prev, oldState, state) {
 /* I can access the dom of comment from apply*/
-        console.log("within apply");
+/*        console.log("within apply");
         let comm = document.getElementsByClassName("margin-box comment")
         console.log(comm[0].firstElementChild.attributes.class.ownerDocument.lastModified)
         let comm = document.getElementsByClassName("margin-box comment")
 
 let com1 = document.querySelector("div#margin-box-1787445283")
             console.log(com1)
-            return{}
+*/            return{}
          }
        }
 
