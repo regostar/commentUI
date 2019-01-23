@@ -68,7 +68,7 @@ export class Ali {
          console.log(this.editor.mod.interactions)
          console.log(this.editor.mod)
 
-       this.editor.statePlugins.push([simple_plugin, () => ({editor: this.editor}) ]);//pushing into an array
+       this.editor.statePlugins.push([simple_plugin, doc => ({editor: this.editor, doc}) ]);//pushing into an array
 
     }
 }
