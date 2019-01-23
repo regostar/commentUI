@@ -28,7 +28,7 @@ export class Ali {
 */
         let tr = this.editor.view.state.tr
         console.log(tr.selection.from)
-        tr.setSelection(TextSelection.create(tr.doc, 20))
+        tr.setSelection(TextSelection.create(tr.doc, 1))
         console.log(tr.selection.from)
         const selection = this.editor.view.state.selection
         let comments = []
