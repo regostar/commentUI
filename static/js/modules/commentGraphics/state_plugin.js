@@ -8,7 +8,8 @@ export let simple_plugin = function(options){
     key,
     state: {
         init(config,state) {
-/*I cannot access the dom of comment within init 
+            console.log({comments: options.doc.comments})
+/*I cannot access the dom of comment within init
    Which means that if I add a css class, only after one click, the new UI/css
    will be loaded*/
        //   console.log(state);
@@ -41,5 +42,3 @@ let com1 = document.querySelector("div#margin-box-1787445283")
 /* Note that the comment ID 1787445283 will be different in different documents
    It is just to show that the dom of comment using id is accessible
 */
-
-
